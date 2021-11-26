@@ -53,8 +53,8 @@ const StudentScreen = ({ selectedClass, setSelectedClass, token }) => {
                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                         <Tab label="Assignments Due" {...a11yProps(0)} />
-                        <Tab label="Assignments Completed" {...a11yProps(0)} />
-                        <Tab label="Notes" {...a11yProps(1)} />
+                        <Tab label="Assignments Completed" {...a11yProps(1)} />
+                        <Tab label="Notes" {...a11yProps(2)} />
                     </Tabs>
                 </Box>
                 <TabPanel value={value} index={0}>
