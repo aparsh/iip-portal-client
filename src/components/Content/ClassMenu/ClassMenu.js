@@ -14,7 +14,7 @@ const ClassMenu = ({ token, screenView, setScreenView, userType }) => {
         const saved = JSON.parse(localStorage.getItem("selectedClass"))
         console.log("saved Class", saved)
         return saved || ""
-    }, [screenView])
+    })
 
 
     const [classes, setClasses] = useState(() => {
@@ -43,7 +43,7 @@ const ClassMenu = ({ token, screenView, setScreenView, userType }) => {
     }, [])
 
     useEffect(async () => {
-        console.log("selectedClass")
+        console.log("selectedClass", selectedClass)
         localStorage.setItem("selectedClass", JSON.stringify(selectedClass))
     }, [selectedClass])
 

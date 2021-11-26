@@ -5,9 +5,9 @@ import './ClassMenu.css'
 import { ClassView } from '../../../global/config'
 
 const ClassCard = ({ classes, setSelectedClass, setScreenView }) => {
-    const selectClass = (current_class) => {
+    const selectClass = async (current_class) => {
         console.log("selected")
-        setSelectedClass(current_class)
+        await setSelectedClass(current_class)
     }
 
     const CurrentClassCard = ({ current_class }) => {
@@ -28,8 +28,8 @@ const ClassCard = ({ classes, setSelectedClass, setScreenView }) => {
                     <CardActions className="classCardButton">
                         <Button
                             size="small"
-                            onClick={() => {
-                                selectClass(current_class)
+                            onClick={async () => {
+                                await selectClass(current_class)
                                 setScreenView(ClassView.CLASS_SCREEN)
                             }}>
                             Open Class
