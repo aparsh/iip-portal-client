@@ -1,4 +1,4 @@
-exports.buffertoBlob = async (bufferData, contentType) => {
+const buffertoBlob = async (bufferData, contentType) => {
     console.log(bufferData)
     let base64Data = await bufferData.toString('base64')
     console.log(base64Data)
@@ -26,3 +26,5 @@ exports.buffertoBlob = async (bufferData, contentType) => {
     // let byteArrays = new Uint8Array.from(buffer);
     return new Blob(byteArrays, { type: contentType });
 }
+
+export default buffertoBlob

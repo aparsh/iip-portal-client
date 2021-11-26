@@ -3,9 +3,9 @@ import { Paper } from '@mui/material'
 import './NotesCard.css'
 import { config } from '../../../../global/config'
 import download from 'downloadjs'
-import { buffertoBlob } from '../../../../global/fileBlob'
+import buffertoBlob from '../../../../global/fileBlob'
 import axios from 'axios'
-import {getFormatedDate} from '../.../../../../../global/dateFormat'
+import { getFormatedDate } from '../.../../../../../global/dateFormat'
 
 const NotesCard = ({ notes, token }) => {
 
@@ -34,7 +34,7 @@ const NotesCard = ({ notes, token }) => {
                     </div>
                 </div>
                 <i class="fa fa-download notesDownloadButton"
-                    onClick={async() => await downloadNotes()}></i>
+                    onClick={async () => await downloadNotes()}></i>
             </Paper>
         </div>
     )

@@ -2,8 +2,6 @@ import { React, useState, useEffect } from 'react'
 import './Body.css';
 import axios from 'axios'
 import { config, ClassView, getRequestHeaders } from '../../../global/config'
-import download from 'downloadjs'
-import { buffertoBlob } from '../../../global/fileBlob'
 import ClassMenu from '../ClassMenu/ClassMenu'
 import Profile from '../Profile/Profile'
 import SideBar from '../SideBar/SideBar'

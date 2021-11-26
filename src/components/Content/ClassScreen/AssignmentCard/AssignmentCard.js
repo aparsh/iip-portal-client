@@ -3,7 +3,7 @@ import { Paper } from '@mui/material'
 import './AssignmentCard.css'
 import { config } from '../../../../global/config'
 import download from 'downloadjs'
-import { buffertoBlob } from '../../../../global/fileBlob'
+import buffertoBlob from '../../../../global/fileBlob'
 import axios from 'axios'
 import { getFormatedDate } from '../.../../../../../global/dateFormat'
 
@@ -42,7 +42,7 @@ const AssignmentCard = ({ assignment, token, submitButton }) => {
                 elevation={3}>
                 <div className="notesContent">
                     {assignment.name}
-                       <div className="notesDate">
+                    <div className="notesDate">
                         start : {getFormatedDate(assignment.start_time)}
                     </div>
                     <div className="notesDate">
