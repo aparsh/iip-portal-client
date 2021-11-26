@@ -1,0 +1,11 @@
+.bannerBox{
+    position: relative;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    margin: -8px;
+    background-color: rgba(0, 132, 255, 0.931);
+    color: white;
+}

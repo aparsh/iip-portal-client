@@ -1,0 +1,33 @@
+.assignmentCard{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.notesContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 24px;
+}
+
+.notesDate{
+    font-size: 16px;
+    color: darkgrey;
+}
+
+.notesDownloadButton{
+    font-size: 36px;
+}
+
+.notesDownloadButton:active{
+    color: gray;
+}

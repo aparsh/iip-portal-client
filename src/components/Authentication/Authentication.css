@@ -1,0 +1,44 @@
+.authScreen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.authContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    height: 90vh;
+}
+
+.formContainer{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.authButton{
+    display:flex;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.backToAuth{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.authButton:hover{background-color:cadetblue;}

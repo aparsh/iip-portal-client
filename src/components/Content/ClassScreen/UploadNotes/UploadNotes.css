@@ -1,0 +1,54 @@
+.uploadFormContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100%;
+}
+
+.uploadForm{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.uploadNoteInputBar{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    width: 300px;
+}
+
+.uploadNoteButton{
+    display:flex;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.marginDiv{
+    margin-top: 10px;
+}
+
+.uploadNoteFormError{
+    display:flex;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    /* background-color: blue; */
+    color:red;
+}

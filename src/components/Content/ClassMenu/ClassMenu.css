@@ -1,0 +1,53 @@
+.classScreen{
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.classCardHolder{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 17vw;
+    margin: 10px;
+}
+
+.classCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 17vw;
+    margin: 10px;
+}
+
+.classCardButton{
+    position: relative;
+    justify-self: flex-end;
+    align-items: flex-end;
+}
+
+.classCardMenu{
+    position: relative;
+    display: flex;
+    height: 80vh;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.userScreen{
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:stretch;
+    margin-top: 8px;
+}

@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { React, useEffect, useState } from 'react'
+import Authentication from './components/Authentication/Authentication'
+import Body from './components/Content/Body/Body';
+import ClassMenu from "./components/Content/ClassMenu/ClassMenu"
+import Banner from './components/Banner/Banner'
 
 function App() {
+  const [token, setToken] = useState(() => {
+    const saved = localStorage.getItem('token');
+    const initialValue = JSON.parse(saved);
+    return initialValue || "";
+  });
+  // const [token, setToken] = useState("");
+
+  // const [token, setToken] = useState("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTk2ODU4NzE0MTllMzA1ZmViYjNmZTAiLCJpYXQiOjE2Mzc3NDY1NzN9.jSE0TQ2KKFd3DxnoWcUplFWjojzYArDiVEmMNUa5lOM");
+
+  useEffect(() => {
+    console.log("updated ",token)
+    localStorage.setItem('token', JSON.stringify(token));
+  }, [token])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Banner/>
+      {(token === "" || token === undefined || token === null) ? 
+      <Authentication setToken={setToken} /> : <Body token={token} setToken={setToken}/>}
     </div>
   );
 }

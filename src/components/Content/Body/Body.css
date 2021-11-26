@@ -1,0 +1,7 @@
+.bodyContainer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    flex-direction: row;
+}
