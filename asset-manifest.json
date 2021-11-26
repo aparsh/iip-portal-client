@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/client/static/css/main.eabb9358.chunk.css",
-    "main.js": "/client/static/js/main.66275dc6.chunk.js",
-    "main.js.map": "/client/static/js/main.66275dc6.chunk.js.map",
-    "runtime-main.js": "/client/static/js/runtime-main.270e9d67.js",
-    "runtime-main.js.map": "/client/static/js/runtime-main.270e9d67.js.map",
-    "static/js/2.4dfe2313.chunk.js": "/client/static/js/2.4dfe2313.chunk.js",
-    "static/js/2.4dfe2313.chunk.js.map": "/client/static/js/2.4dfe2313.chunk.js.map",
-    "index.html": "/client/index.html",
-    "static/css/main.eabb9358.chunk.css.map": "/client/static/css/main.eabb9358.chunk.css.map",
-    "static/js/2.4dfe2313.chunk.js.LICENSE.txt": "/client/static/js/2.4dfe2313.chunk.js.LICENSE.txt",
-    "static/media/HomeImage.76c2fcde.png": "/client/static/media/HomeImage.76c2fcde.png"
+    "main.css": "/iip-portal-client/static/css/main.eabb9358.chunk.css",
+    "main.js": "/iip-portal-client/static/js/main.66275dc6.chunk.js",
+    "main.js.map": "/iip-portal-client/static/js/main.66275dc6.chunk.js.map",
+    "runtime-main.js": "/iip-portal-client/static/js/runtime-main.c35b71e6.js",
+    "runtime-main.js.map": "/iip-portal-client/static/js/runtime-main.c35b71e6.js.map",
+    "static/js/2.4dfe2313.chunk.js": "/iip-portal-client/static/js/2.4dfe2313.chunk.js",
+    "static/js/2.4dfe2313.chunk.js.map": "/iip-portal-client/static/js/2.4dfe2313.chunk.js.map",
+    "index.html": "/iip-portal-client/index.html",
+    "static/css/main.eabb9358.chunk.css.map": "/iip-portal-client/static/css/main.eabb9358.chunk.css.map",
+    "static/js/2.4dfe2313.chunk.js.LICENSE.txt": "/iip-portal-client/static/js/2.4dfe2313.chunk.js.LICENSE.txt",
+    "static/media/HomeImage.76c2fcde.png": "/iip-portal-client/static/media/HomeImage.76c2fcde.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.270e9d67.js",
+    "static/js/runtime-main.c35b71e6.js",
     "static/js/2.4dfe2313.chunk.js",
     "static/css/main.eabb9358.chunk.css",
     "static/js/main.66275dc6.chunk.js"
