@@ -63,9 +63,11 @@ const UploadAssignment = ({ token, class_code, setValue }) => {
         const resp = await axios.post(config.BASE_URL + "assignment/upload", data, reqConfig)
         if (resp.data.status === 'Successful') {
             setValue(0)
+            return
         }
         else {
             setUploadError(true)
+            return;
         }
 
     }
